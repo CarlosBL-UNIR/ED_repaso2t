@@ -57,6 +57,7 @@ public class Biblioteca {
 
     /**
      * Devuelve la lista de libros de la biblioteca
+     *
      * @return Lista de libros de la biblioteca
      */
     public List<Libro> getLibros() {
@@ -90,11 +91,12 @@ public class Biblioteca {
 
     /**
      * @deprecated Este metodo ha quedado obsoleto
-     * Se recomienda usar{@link #encuentraLibrosPorAutor(String)} en su lugar
+     * Se recomienda usar{@link #encuentaLibrosPorAutor(String)} en su lugar
      * @param autor
      * @return
      */
-    public Libro encuentraLibroPorAutor(String autor) {
+    @Deprecated
+    public Libro encuentaLibroPorAutor(String autor) {
         for (Libro libro : libros) {
             if (libro.getAutor().equals(autor)) {
                 return libro;

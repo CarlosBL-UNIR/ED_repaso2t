@@ -21,7 +21,7 @@ public class Main {
         System.out.println(libro3);
 
         System.out.println(biblio.encuentaLibroPorAutor("Robert C. Martin"));
-        System.out.println(biblio.encuentraLibrosPorAutor("Robert C. Martin"));
+        System.out.println(biblio.encuentaLibrosPorAutor("Robert C. Martin"));
 
         System.out.println(biblio.getLibros());
         System.out.println(biblio.eliminarLibro(libro1));
